@@ -5,7 +5,7 @@ import './Navbar.css';
 
 function Navbar() {
 
-    const [showNavBar, setShowNavBar] = useState(true);
+    const [showNavBar, setShowNavBar] = useState(false);
     const [previousScrollPos, setPreviousScrollPos] = useState(0);
 
     function detectScroll() {
@@ -27,7 +27,7 @@ function Navbar() {
     }, [previousScrollPos]);
 
     return (
-        <nav className={` NavBar ${showNavBar && 'hidden'} `}>
+        <nav className={` NavBar ${showNavBar && 'hide'} `}>
             <ul className='NavBarList'>
                 <li className='NavBarImage'>
                     <NavLink className="NavLink" to="/">
