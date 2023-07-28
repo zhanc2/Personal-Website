@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
-import houseIcon from './house.png';
+import houseIcon from '../assets/house.png';
 import './Navbar.css';
 
 function Navbar() {
