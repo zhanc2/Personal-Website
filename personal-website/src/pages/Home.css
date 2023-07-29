@@ -58,6 +58,7 @@ body {
 
 .titleText {
   margin: 4vh;
+  text-shadow: 0.3vh 0.3vh rgb(100, 100, 100);
 }
 
 .links {
@@ -68,6 +69,7 @@ body {
 
 .links:hover {
   color: black;
+  text-shadow: none;
 }
 
 .aboutMe {
@@ -116,7 +118,8 @@ body {
 
 .aboutMePara {
   text-align: justify;
-  width: 60vh
+  width: 60vh;
+  font-size: larger;
 }
 
 .aboutMePic {
@@ -138,13 +141,12 @@ body {
 .socialsLinks {
   display: flex;
   list-style: none;
+  padding: 0;
 }
 
 .socialsLinkGroup {
-  display: flex;
-  flex-direction: row;
-  margin: 1vh;
-  padding: 0vh 1vh 0vh 1vh;
+  margin: 0vh;
+  /* padding: 0vh 1vh 0vh 1vh; */
 }
 
 .socialsLink {
@@ -152,29 +154,48 @@ body {
   font-size: x-large;
   color: black;
   transition: 0.2s;
-  margin-left: 0.5vh;
+  /* margin-left: 0.5vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1vh 4vh 1vh 4vh;
 }
 
 .socialsLink:hover {
   color: white;
 }
 
+#githubLink:hover>#githubIcon {
+  filter: invert(100%);
+}
+
+#linkedinLink:hover>#linkedinIcon {
+  filter: invert(100%);
+}
+
+#devpostLink:hover>#devpostIcon {
+  filter: invert(100%);
+}
+
 .socialsIcon {
   height: 5vh;
   width: 5vh;
+  /* max-width: 100%;
+  max-height: 100%; */
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
+  margin-right: 1vh;
 }
 
 #githubIcon {
-  background-image: url('../assets/github-icon.png');
+  transition: 0.2s;
 }
 
 #linkedinIcon {
-  background-image: url('../assets/linkedin-icon.png');
+  transition: 0.2s;
 }
 
 #devpostIcon {
-  background-image: url('../assets/devpost-icon.png');
+  transition: 0.2s;
 }
