@@ -27,7 +27,7 @@ function Navbar() {
     }, [previousScrollPos]);
 
     return (
-        <nav className={` NavBar ${showNavBar && 'hide'} `}>
+        <nav className={` NavBar ${showNavBar && 'hideNavbar'} `}>
             <ul className='NavBarList'>
                 <li className='NavBarImage'>
                     <NavLink className="NavLink" to="/">

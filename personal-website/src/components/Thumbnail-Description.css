@@ -1,0 +1,128 @@
+.ThumbnailDescription {
+    margin: auto;
+}
+
+.blurBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.showBlurBackground {
+    background: rgba(87, 87, 87, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    z-index: 19;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    width: 25vw;
+
+    margin: 4vh;
+    padding: 3vh;
+
+    cursor: pointer;
+    transition: 0.2s;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.card:hover {
+    /* padding: 2vh; */
+    margin: 3vh;
+    padding: 4vh;
+    color: red;
+}
+
+.thumbnailImage {
+    max-height: 40%;
+    max-width: 40%;
+}
+
+.thumbnailTitle {
+    font-size: 4vh;
+}
+
+
+.projectDescription {
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+
+    z-index: 20;
+}
+
+.hideDescription {
+    height: 0;
+    width: 0;
+    top: 50vh;
+    left: 50vw;
+    font-size: 0;
+    /* display: none; */
+}
+
+.hideDescription>.projectDescriptionCard>.projectDescriptionTitle {
+    font-size: 0;
+}
+
+.hideDescription>.projectDescriptionCard>.exitButton {
+    display: none;
+}
+
+
+.projectDescriptionCard {
+    background-color: rgb(143, 194, 240);
+    /* height: 100%; */
+    margin: 6vh 6vw 6vh 6vw;
+}
+
+.projectDescriptionTitle {
+    text-align: center;
+    font-size: 7vh;
+    transition: 0.2s;
+}
+
+.exitButton {
+    font-size: 6vh;
+    font-weight: bold;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    position: absolute;
+    right: 6.5vw;
+    padding: none;
+    top: 4.5vh;
+    transition: 0.2s;
+}
+
+.exitButton:hover {
+    color: white
+}
