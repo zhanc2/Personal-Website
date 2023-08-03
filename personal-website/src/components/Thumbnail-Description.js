@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './Thumbnail-Description.css'
 
+import githubIcon from '../assets/github-icon.png';
+import devpostIcon from '../assets/devpost-icon.png';
+
 function ThumbnailDescription(props) {
 
     const [showDescription, setShowDescription] = useState(true);
@@ -44,7 +47,25 @@ function ThumbnailDescription(props) {
                             {props.name}
                         </div>
                         <div className='projectLinks'>
-                            yo this works right
+                            <ul className='socialsLinks'>
+                                <li className={`socialsLinkGroup ${props.github}`}>
+                                    <a href={props.github} className='socialsLink' id='githubLink'>
+                                        <img id='githubIcon' className='socialsIcon' src={githubIcon} alt='' />
+                                        Github
+                                    </a>
+                                </li>
+                                <li className={`socialsLinkGroup ${props.devpost}`}>
+                                    <a href={props.devpost} className='socialsLink' id='devpostLink'>
+                                        <img id='devpostIcon' className='socialsIcon' src={devpostIcon} alt='' />
+                                        Devpost
+                                    </a>
+                                </li>
+                                <li className={`socialsLinkGroup ${props.otherLink}`}>
+                                    <a href={props.otherLink} className='socialsLink'>
+                                        {props.other}
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
 

@@ -57,12 +57,14 @@
 }
 
 .thumbnailImage {
-    max-height: 40%;
-    max-width: 40%;
+    height: 30vh;
+    /* max-width: 40%; */
+    margin-bottom: 1vh;
 }
 
 .thumbnailTitle {
     font-size: 4vh;
+    margin-bottom: 1vh;
 }
 
 
@@ -87,8 +89,12 @@
     /* display: none; */
 }
 
-.hideDescription>.projectDescriptionCard>.projectDescriptionTitle {
+.hideDescription>.projectDescriptionCard>.projectDescriptionTitle>.projectName {
     font-size: 0;
+}
+
+.hideDescription>.projectDescriptionCard>.projectDescriptionTitle>.projectLinks {
+    display: none;
 }
 
 .hideDescription>.projectDescriptionCard>.exitButton {
@@ -104,8 +110,19 @@
 
 .projectDescriptionTitle {
     text-align: center;
-    font-size: 7vh;
     transition: 0.2s;
+}
+
+.projectName {
+    font-size: 8vh;
+}
+
+.projectLinks {
+    font-size: 4vh;
+}
+
+.hideLink {
+    display: none;
 }
 
 .exitButton {

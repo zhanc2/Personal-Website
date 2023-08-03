@@ -1,8 +1,6 @@
 .Projects {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /* padding: 1vh; */
+    padding-left: 1vh;
+    padding-right: 1vh;
 }
 
 .thumbnailContainer {
