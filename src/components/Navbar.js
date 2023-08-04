@@ -31,7 +31,7 @@ function Navbar() {
             <ul className='NavBarList'>
                 <li className='NavBarImage'>
                     <NavLink className="NavLink" to="/">
-                        <img className='houseIcon' src={houseIcon}></img>
+                        <img className='houseIcon' src={houseIcon} alt=''></img>
                     </NavLink>
                 </li>
                 <li className="NavBarItem">
