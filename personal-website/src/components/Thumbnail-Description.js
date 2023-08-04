@@ -30,7 +30,7 @@ function ThumbnailDescription(props) {
                     {props.name}
                 </div>
                 <img src={props.imgUrl} className='thumbnailImage' alt='' />
-                <div className='thumbnailDescription'>
+                <div className='quickThumbnailDescription'>
                     {props.thumbnailDescription}
                 </div>
             </button>

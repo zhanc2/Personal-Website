@@ -47,13 +47,15 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
+
+    color: white;
 }
 
 .card:hover {
     /* padding: 2vh; */
     margin: 3vh;
     padding: 4vh;
-    color: red;
+    font-weight: bold;
 }
 
 .thumbnailImage {
@@ -63,8 +65,12 @@
 }
 
 .thumbnailTitle {
-    font-size: 4vh;
+    font-size: 5vh;
     margin-bottom: 1vh;
+}
+
+.quickThumbnailDescription {
+    font-size: 3vh;
 }
 
 
@@ -76,6 +82,7 @@
     top: 0;
     left: 0;
     transition: 0.4s;
+
 
     z-index: 20;
 }
@@ -105,12 +112,16 @@
 .projectDescriptionCard {
     background-color: rgb(143, 194, 240);
     /* height: 100%; */
-    margin: 6vh 6vw 6vh 6vw;
+    margin: 19vh 20vw 6vh 20vw;
+    border-radius: 5vh;
 }
 
 .projectDescriptionTitle {
     text-align: center;
-    transition: 0.2s;
+    transition: 0.4s;
+    background-color: rgb(90, 165, 231);
+    padding-bottom: 2vh;
+    border-radius: 5vh 5vh 0 0;
 }
 
 .projectName {
@@ -125,6 +136,13 @@
     display: none;
 }
 
+.projectDescriptionBody {
+    white-space: pre-wrap;
+    margin: 4vh 4vw 2vh 4vw;
+    padding-bottom: 4vh;
+    text-align: justify;
+}
+
 .exitButton {
     font-size: 6vh;
     font-weight: bold;
@@ -134,9 +152,9 @@
     cursor: pointer;
 
     position: absolute;
-    right: 6.5vw;
+    right: 20.5vw;
     padding: none;
-    top: 4.5vh;
+    top: 17.5vh;
     transition: 0.2s;
 }
 
