@@ -33,7 +33,7 @@ function Home() {
                             <div className='aboutMePic' />
                             <div className='aboutMePara'>Hi! My name is Charles and I'm a CS student at UW, graduating in 2028.
                                 I love coding, both for specific problem solving, as well as for personal projects.
-                                <br /><br />I also co-lead my school's debate club for 2 years and competed in British Parlimentary debate for 5 years outside of school, making it to the provincial level of competition.
+                                <br /><br />I also co-led my school's debate club for 2 years and competed in British Parlimentary debate for 5 years outside of school, making it to the provincial level of competition.
                                 <br /><br />Finally, I played the clarinet and saxophone in my school bands for all 4 years. I'm self taught for piano and have been one of the piano players for my church's Sunday service for a year.
                             </div>
 
