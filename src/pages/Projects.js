@@ -4,6 +4,7 @@ import hermitradeLogo from "../assets/project_thumbnails/hermitrade-logo.svg";
 import lostingravityLogo from "../assets/project_thumbnails/lostingravity-logo.png";
 import survivethenightLogo from "../assets/project_thumbnails/survivethenight-logo.png";
 import reactLogo from "../assets/project_thumbnails/react-logo.png";
+import upsetAviansLogo from "../assets/project_thumbnails/upset-avians.png"
 
 import './Projects.css'
 
@@ -18,6 +19,9 @@ function Projects() {
             </div>
 
             <div className='thumbnailContainer'>
+                <ThumbnailDescription className='projectCard' name='Upset Avians' imgUrl={upsetAviansLogo} thumbnailDescription='3D Remake of Angry Birds'
+                    github='https://github.com/zhanc2/Survive-The-Night' devpost='hideLink' otherLink='https://zhanc2.itch.io/upset-avians'
+                    description={`Upset Avians is a 3D remake of the classic game "Angry Birds" by Rovio. Use a slingshot to launch birds with various abilities to take down the structures that the pigs are hiding in!\n\nThis project was made using Unreal Engine 4. The voxel models were made with MagicaVoxel and the sprites and UI were made with Paint.net.\n\nThis was my first time using Unreal Engine, so I used Blueprints. I had a lot of fun designing models and sprites with voxels and coding with blueprints was something I'd never done before. Some features I hope to add in the next realease include animations for models and more levels.`} />
                 <ThumbnailDescription className='projectCard' name='Survive the Night' imgUrl={survivethenightLogo} thumbnailDescription='Top Down Zombie Shooter'
                     github='https://github.com/zhanc2/Survive-The-Night' devpost='hideLink' otherLink='hideLink'
                     description={`Survive the Night is a top down, pixel art based, singleplayer zombie shooter game. The goal is to fend off waves of zombie until daybreak, using the coins dropped by defeating zombies to upgrade your weaponry and keep yourself healthy.\n\nThis game was made using the Python graphics library Pygame. I also created the art for the players, zombies, particles, and UI.\n\nThis was one of my first full coding projects that I did, having coded it in the summer a year after I started programming with a "real" coding language (I had experimented with Scratch before). Previously, I had done a few smaller scale beginner projects, such as a calculator and trivia game, so this was a new challenge for me. The main challenge I had was working with the graphics and creating the art.`} />
