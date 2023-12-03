@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.829383f6.css",
-    "main.js": "/static/js/main.c983b032.js",
+    "main.css": "/static/css/main.44194cae.css",
+    "main.js": "/static/js/main.f8d6cf3f.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/website-background.mp4": "/static/media/website-background.500fcc95bc80a56926e8.mp4",
     "static/media/charf.jpg": "/static/media/charf.35a6de7e1b17d0521524.jpg",
@@ -10,13 +10,14 @@
     "static/media/hermitrade-logo.svg": "/static/media/hermitrade-logo.9c2923ce52f3c8112abbf0f3fdc01fa4.svg",
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.a680cb8ad2b88be03d17.png",
     "static/media/react-logo.png": "/static/media/react-logo.ccb97f287d4d51b10a6b.png",
+    "static/media/itchio-icon.png": "/static/media/itchio-icon.5820de1c092b08a84a78.png",
     "index.html": "/index.html",
-    "main.829383f6.css.map": "/static/css/main.829383f6.css.map",
-    "main.c983b032.js.map": "/static/js/main.c983b032.js.map",
+    "main.44194cae.css.map": "/static/css/main.44194cae.css.map",
+    "main.f8d6cf3f.js.map": "/static/js/main.f8d6cf3f.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.829383f6.css",
-    "static/js/main.c983b032.js"
+    "static/css/main.44194cae.css",
+    "static/js/main.f8d6cf3f.js"
   ]
 }
