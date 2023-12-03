@@ -3,6 +3,8 @@ import './Thumbnail-Description.css'
 
 import githubIcon from '../assets/github-icon.png';
 import devpostIcon from '../assets/devpost-icon.png';
+import itchioIcon from '../assets/itchio-icon.png';
+import youtubeIcon from '../assets/youtube-icon.png';
 
 function ThumbnailDescription(props) {
 
@@ -58,6 +60,18 @@ function ThumbnailDescription(props) {
                                     <a href={props.devpost} className='socialsLink' id='devpostLink'>
                                         <img id='devpostIcon' className='socialsIcon' src={devpostIcon} alt='' />
                                         Devpost
+                                    </a>
+                                </li>
+                                <li className={`socialsLinkGroup ${props.itchio}`}>
+                                    <a href={props.itchio} className='socialsLink' id='itchioLink'>
+                                        <img id='itchioIcon' className='socialsIcon' src={itchioIcon} alt='' />
+                                        Play Here
+                                    </a>
+                                </li>
+                                <li className={`socialsLinkGroup ${props.youtube}`}>
+                                    <a href={props.youtube} className='socialsLink' id='youtubeLink'>
+                                        <img id='youtubeIcon' className='socialsIcon' src={youtubeIcon} alt='' />
+                                        Video
                                     </a>
                                 </li>
                                 <li className={`socialsLinkGroup ${props.otherLink}`}>
