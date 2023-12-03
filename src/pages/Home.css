@@ -171,6 +171,14 @@ body {
   filter: invert(100%);
 }
 
+#itchioLink:hover>#itchioIcon {
+  filter: invert(100%);
+}
+
+#youtubeLink:hover>#youtubeIcon {
+  filter: invert(100%);
+}
+
 .socialsIcon {
   height: 5vh;
   width: 5vh;
