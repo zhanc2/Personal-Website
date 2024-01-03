@@ -64,14 +64,3 @@
 .hideNavbar {
     top: -8vh;
 }
-
-/* .content {
-    background: var(--main-color);
-    color: black;
-    transition: 0.5s;
-}
-
-.content:hover {
-    background: black;
-    color: white;
-} */
