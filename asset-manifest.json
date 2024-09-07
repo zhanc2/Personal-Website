@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.44194cae.css",
-    "main.js": "/static/js/main.cb0ee853.js",
-    "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
+    "main.css": "/static/css/main.ab0da862.css",
+    "main.js": "/static/js/main.28fff274.js",
+    "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
     "static/media/website-background.mp4": "/static/media/website-background.500fcc95bc80a56926e8.mp4",
     "static/media/charf.jpg": "/static/media/charf.35a6de7e1b17d0521524.jpg",
     "static/media/lostingravity-logo.png": "/static/media/lostingravity-logo.e1b4d7cd9f253ed75ffc.png",
@@ -12,12 +12,12 @@
     "static/media/react-logo.png": "/static/media/react-logo.ccb97f287d4d51b10a6b.png",
     "static/media/itchio-icon.png": "/static/media/itchio-icon.5820de1c092b08a84a78.png",
     "index.html": "/index.html",
-    "main.44194cae.css.map": "/static/css/main.44194cae.css.map",
-    "main.cb0ee853.js.map": "/static/js/main.cb0ee853.js.map",
-    "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
+    "main.ab0da862.css.map": "/static/css/main.ab0da862.css.map",
+    "main.28fff274.js.map": "/static/js/main.28fff274.js.map",
+    "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44194cae.css",
-    "static/js/main.cb0ee853.js"
+    "static/css/main.ab0da862.css",
+    "static/js/main.28fff274.js"
   ]
 }
